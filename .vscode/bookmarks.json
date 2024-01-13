@@ -1,0 +1,34 @@
+{
+	"files": [
+		{
+			"path": "src/ast/ast.go",
+			"bookmarks": [
+				{
+					"line": 43,
+					"column": 26,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "src/parser/parser.go",
+			"bookmarks": [
+				{
+					"line": 39,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "src/parser/parse_statement.go",
+			"bookmarks": [
+				{
+					"line": 15,
+					"column": 9,
+					"label": ""
+				}
+			]
+		}
+	]
+}
