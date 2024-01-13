@@ -1,10 +1,10 @@
 package parser
 
 import (
+	"Monkey-D-Lang/src/ast"
+	"Monkey-D-Lang/src/lexer"
+	"Monkey-D-Lang/src/token"
 	"fmt"
-	"monkeyInterpreter/src/ast"
-	"monkeyInterpreter/src/lexer"
-	"monkeyInterpreter/src/token"
 )
 
 type Parser struct {
