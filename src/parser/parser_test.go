@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"monkeyInterpreter/src/ast"
-	"monkeyInterpreter/src/lexer"
+	"Monkey-D-Lang/src/ast"
+	"Monkey-D-Lang/src/lexer"
 	"testing"
 )
 
@@ -41,7 +41,6 @@ func TestLetStatements(t *testing.T) {
 		}
 	}
 }
-
 
 func testLetStatement(
 	t *testing.T,

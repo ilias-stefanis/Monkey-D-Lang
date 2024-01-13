@@ -1,11 +1,11 @@
 package repl
 
 import (
+	"Monkey-D-Lang/src/lexer"
+	"Monkey-D-Lang/src/token"
 	"bufio"
 	"fmt"
 	"io"
-	"monkeyInterpreter/src/lexer"
-	"monkeyInterpreter/src/token"
 	"os"
 	"os/exec"
 	"strconv"

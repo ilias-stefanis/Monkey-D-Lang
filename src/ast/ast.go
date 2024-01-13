@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"monkeyInterpreter/src/token"
+	"Monkey-D-Lang/src/token"
 )
 
 type Node interface {
@@ -65,21 +65,25 @@ func (cs *ConstStatement) TokenLiteral() string {
 
 // ------- Return Statement -------
 type ReturnStatement struct {
-      Token token.Token // the token.RETURN token
+	Token token.Token // the token.RETURN token
 	Value Expression
 }
+
 func (cs *ReturnStatement) statementNode() {}
 func (cs *ReturnStatement) TokenLiteral() string {
-      return cs.Token.Value
+	return cs.Token.Value
 }
 
 // ------- Enum Statement -------
 type EnumStatement struct {
-      Token token.Token // the token.ENUM token
-      Name  *Identifier
-      Value Expression
+	Token token.Token // the token.ENUM token
+	Name  *Identifier
+	Value Expression
 }
+
 func (cs *EnumStatement) statementNode() {}
 func (cs *EnumStatement) TokenLiteral() string {
-      return cs.Token.Value
+	return cs.Token.Value
 }
+
+//test

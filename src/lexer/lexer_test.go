@@ -1,8 +1,8 @@
 package lexer
 
 import (
+	"Monkey-D-Lang/src/token"
 	"fmt"
-	"monkeyInterpreter/src/token"
 	"testing"
 )
 

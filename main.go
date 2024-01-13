@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"monkeyInterpreter/src/repl"
+	"Monkey-D-Lang/src/repl"
 	"os"
 	"os/user"
 )

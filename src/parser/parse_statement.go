@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"monkeyInterpreter/src/ast"
-	"monkeyInterpreter/src/token"
+	"Monkey-D-Lang/src/ast"
+	"Monkey-D-Lang/src/token"
 )
 
 func (parser *Parser) parseStatement() ast.Statement {
